@@ -1,0 +1,19 @@
+{
+  "name": "@voyant-travel/algolia-adapter",
+  "version": "0.1.0",
+  "description": "Algolia search provider for Voyant Catalog",
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "pnpm@10.12.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyant-travel/algolia-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voyant-travel/algolia-adapter/issues"
+  },
+  "homepage": "https://github.com/voyant-travel/algolia-adapter#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}
