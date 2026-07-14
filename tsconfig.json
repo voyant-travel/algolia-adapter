@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "ES2023",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"lib": ["ES2023", "DOM", "DOM.Iterable"],
+		"types": ["node"],
+		"rootDir": "src",
+		"outDir": "dist",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"skipLibCheck": true
+	},
+	"include": [
+		"src/adapter.ts",
+		"src/index.ts",
+		"src/provider.ts",
+		"src/voyant.ts"
+	]
+}
