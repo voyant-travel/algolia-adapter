@@ -51,3 +51,7 @@ ALGOLIA_APP_ID=... ALGOLIA_API_KEY=... pnpm test:conformance
 ```
 
 The conformance run creates and removes uniquely prefixed indexes. Do not point it at a production-only key or a shared index namespace.
+
+## Releases
+
+This package is explicitly public (`publishConfig.access: "public"`). Changesets runs on every push to `main`: it first opens a release PR, then publishes the accepted version to npm, tags it, and creates a GitHub release when that release PR is merged. Configure npm trusted publishing for `voyant-travel/algolia-adapter` before the first release so the workflow's OIDC token may publish the package.
