@@ -1,7 +1,7 @@
-import { definePlugin } from "@voyant-travel/core/project";
+import { defineAdapter } from "@voyant-travel/graph-contracts";
 
 /** Import-cheap declaration for the external Algolia catalog search provider. */
-export const algoliaAdapterVoyantPlugin = definePlugin({
+export const algoliaVoyantAdapter = defineAdapter({
 	id: "@voyant-travel/algolia-adapter",
 	packageName: "@voyant-travel/algolia-adapter",
 	localId: "algolia-adapter",
@@ -41,4 +41,4 @@ export const algoliaAdapterVoyantPlugin = definePlugin({
 	meta: { ownership: "package" },
 });
 
-export default algoliaAdapterVoyantPlugin;
+export default algoliaVoyantAdapter;
